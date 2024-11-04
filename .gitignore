@@ -1,0 +1,6 @@
+*.xlsx
+*lib*
+*bin*
+*.pdf*
+*.pyvenv*
+*pyvenv*
