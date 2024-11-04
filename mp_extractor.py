@@ -167,7 +167,8 @@ def process_statement():
         exit(1)
 
     pdf_path = argv[1]
-    output_path = "statement_output.xlsx"
+    date = datetime
+    output_path = f"output/output_{date.today().strftime("%Y%m%d")}.xlsx"
 
     try:
         converter = StatementConverter(pdf_path)
